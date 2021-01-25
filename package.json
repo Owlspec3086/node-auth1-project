@@ -1,0 +1,37 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "auth project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "server": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owlspec3086/node-auth1-project.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Owlspec3086/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/Owlspec3086/node-auth1-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^4.4.1",
+    "knex": "^0.21.16",
+    "md5": "^2.3.0",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^4.2.0"
+  }
+}
